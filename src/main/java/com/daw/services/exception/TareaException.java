@@ -1,13 +1,13 @@
 package com.daw.services.exception;
 
-public class TareaNotFoundException extends RuntimeException {
+public class TareaException extends RuntimeException {
 
 	/**
 	 * 
 	 */
 	private static final long serialVersionUID = 1L;
 
-	public TareaNotFoundException(String message) {
+	public TareaException(String message) {
 		super(message);
 	}
 
